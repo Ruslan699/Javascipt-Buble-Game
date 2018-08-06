@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    overflow: hidden;
+}
+li {
+    list-style-type: none;
+}
+
+
+
+
+.ground{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    margin-top: 25px;
+    background-color: white;
+}
+
+
+
+.controller{
+    width: 130px;
+    height: 120px;
+    border: 1px solid #6b6b66;
+    background-color: #e2e2dc;
+    border-radius: 30%;
+    position: fixed;
+    bottom: 7px;
+    left: 50%;
+}
+
+.button{
+    position: absolute;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #636361;
+    background-color: #636361;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    font-size: 30px;
+}
+
+.button:active{
+    border: #636361;
+    color: #636361;
+}
+
+.up-up{
+    top: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.down-down{
+    bottom: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.left-left{
+    left: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right-right{
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.oyunBox{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    transition: 0.2s all linear;
+    border-radius: 90%;
+    top:200px;
+    left: 700px;
+    color: #b5ba86;
+    border: 3px solid #dfe2bc;
+    background-color: #636361;
+}
