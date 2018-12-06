@@ -1,1 +1,2 @@
-# Mini-Game2
+# Mini Game
+Used JQuery
